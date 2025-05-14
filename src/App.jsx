@@ -16,7 +16,7 @@ export const goodsFromServer = [
 ];
 
 export const App = () => {
-  const [sorting, setSorting] = useState();
+  const [sorting, setSorting] = useState(null);
   const [reversed, setReversed] = useState(false);
   const [activeButton, setActiveButton] = useState('');
 
